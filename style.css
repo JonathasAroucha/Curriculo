@@ -87,20 +87,23 @@ h1 {
     padding: 10px 0;
   }
 
-@media (max-width:800px) {
-    .container{
+@media (max-width:915px) {
     
+    .container{
+        width: 100%;
     }
-
-@media (max-width:600px) {
-    .container{
-    
-
+    .footer{
+        width: 100%;
+        
+    }
 }
-    
-}
-@media (max-width:500px) {
+
+@media (max-width:465px) {
     .container{
-    
+        width: auto;
+        overflow:auto
+    }
+    .footer{
+        width: auto; 
     }
 }
