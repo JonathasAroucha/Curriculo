@@ -1,8 +1,9 @@
 body {
-    background: #dfdfdf);
+    background: #dfdfdf;
     font-family: 'Raleway', sans-serif;
     color: rgb(34, 34, 34);
     margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -28,6 +29,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.projetos ul li{
+  padding: 10px;
 }
 
 a{
